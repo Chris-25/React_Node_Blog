@@ -1,0 +1,76 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),
+    url("https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+    /* align-self: center; */
+    
+}
+
+.registerForm {
+    margin-top:20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.registerInput {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 500px;
+    /* align-self: center; */
+    margin-bottom: 10px;
+}
+
+.registerButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 150px;
+    align-self: center;
+    border: none;
+    /* align-self: center; */
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(130, 128, 240);
+}
+
+.registerLoginButton {
+    position: absolute;
+    
+    height: 30px;
+    width: 80px;
+    border: none;
+    top: 60px;
+    right: 40px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightcoral;
+    
+}
+.error {
+    font-size: 30px;
+    color: rgb(78, 13, 13);
+}
